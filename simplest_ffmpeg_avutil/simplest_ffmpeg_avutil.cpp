@@ -109,28 +109,23 @@ void print_opt(const AVOption *opt_test){
 
 	switch(opt_test->type){
 	case AV_OPT_TYPE_INT:{
-		printf("[type]int\n");
-		printf("[default]%d\n",opt_test->default_val.i64);
+		printf("[type]int\n[default]%d\n",opt_test->default_val.i64);
 		break;
 						 }
 	case AV_OPT_TYPE_INT64:{
-		printf("[type]int64\n");
-		printf("[default]%lld\n",opt_test->default_val.i64);
+		printf("[type]int64\n[default]%lld\n",opt_test->default_val.i64);
 		break;
 						   }
 	case AV_OPT_TYPE_FLOAT:{
-		printf("[type]float\n");
-		printf("[default]%f\n",opt_test->default_val.dbl);
+		printf("[type]float\n[default]%f\n",opt_test->default_val.dbl);
 		break;
 						   }
 	case AV_OPT_TYPE_STRING:{
-		printf("[type]string\n");
-		printf("[default]%s\n",opt_test->default_val.str);
+		printf("[type]string\n[default]%s\n",opt_test->default_val.str);
 		break;
 							}
 	case AV_OPT_TYPE_RATIONAL:{
-		printf("[type]rational\n");
-		printf("[default]%d/%d\n",opt_test->default_val.q.num,opt_test->default_val.q.den);
+		printf("[type]rational\n[default]%d/%d\n",opt_test->default_val.q.num,opt_test->default_val.q.den);
 		break;
 							  }
 	default:{
@@ -283,16 +278,13 @@ int encoder(){
 	printf("get bitrate(int):%lld\n",val_int);
 #endif
 
-	//Dump Information
-	av_dump_format(pFormatCtx, 0, out_file, 1);
-
 	AVDictionary *param = 0;
 
 	//H.264
 	if(pCodecCtx->codec_id == AV_CODEC_ID_H264) {
 		char *val_str=(char *)av_malloc(50);
 		//List it
-		list_obj_opt(pCodecCtx->priv_data);
+		//list_obj_opt(pCodecCtx->priv_data);
 
 		//preset: ultrafast, superfast, veryfast, faster, fast, 
 		//medium, slow, slower, veryslow, placebo
@@ -310,17 +302,17 @@ int encoder(){
 		printf("tune val: %s\n",val_str);
 		av_opt_get(pCodecCtx->priv_data,"profile",0,(uint8_t **)&val_str);
 		printf("profile val: %s\n",val_str);
+		av_free(val_str);
 
 #if TEST_DIC
 		av_dict_set(&param, "preset", "slow", 0);  
 		av_dict_set(&param, "tune", "zerolatency", 0);  
 		//av_dict_set(&param, "profile", "main", 0);  
 #endif
-		av_free(val_str);
 	}
 	//H.265
 	if(pCodecCtx->codec_id == AV_CODEC_ID_H265){
-		list_obj_opt(pCodecCtx->priv_data);
+		//list_obj_opt(pCodecCtx->priv_data);
 
 		//preset: ultrafast, superfast, veryfast, faster, fast, 
 		//medium, slow, slower, veryslow, placebo
@@ -469,12 +461,12 @@ int main(int argc, char* argv[])
 	av_log_set_level(AV_LOG_DEBUG);
 	//av_log_set_flags(AV_LOG_PRINT_LEVEL);
 	//av_log_set_callback(custom_output);
-	
+	test_log();
+
 	test_avdictionary();
 	test_parseutil();
 
-	test_log();
-	test_opt();
+	//test_opt();
 
 	encoder();
 

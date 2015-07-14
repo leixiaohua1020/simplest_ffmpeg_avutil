@@ -1,0 +1,122 @@
+using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX
+profile Main, level 2.1
+frame=   0 QP=32.87 NAL=3 Slice:I Poc:0   I:510  P:0    SKIP:0    size=9321 bytes
+frame=   1 QP=39.48 NAL=2 Slice:P Poc:10  I:0    P:224  SKIP:286  size=305 bytes
+frame=   2 QP=40.47 NAL=2 Slice:B Poc:6   I:0    P:85   SKIP:425  size=131 bytes
+frame=   3 QP=41.47 NAL=0 Slice:B Poc:2   I:0    P:87   SKIP:423  size=127 bytes
+frame=   4 QP=41.71 NAL=0 Slice:B Poc:4   I:0    P:82   SKIP:428  size=141 bytes
+frame=   5 QP=41.71 NAL=0 Slice:B Poc:8   I:0    P:58   SKIP:452  size=109 bytes
+frame=   6 QP=36.10 NAL=2 Slice:P Poc:22  I:0    P:288  SKIP:222  size=675 bytes
+frame=   7 QP=39.05 NAL=2 Slice:B Poc:16  I:0    P:164  SKIP:346  size=261 bytes
+frame=   8 QP=41.00 NAL=0 Slice:B Poc:12  I:0    P:85   SKIP:425  size=155 bytes
+frame=   9 QP=40.71 NAL=0 Slice:B Poc:14  I:0    P:113  SKIP:397  size=174 bytes
+frame=  10 QP=39.00 NAL=0 Slice:B Poc:18  I:0    P:138  SKIP:372  size=189 bytes
+frame=  11 QP=38.71 NAL=0 Slice:B Poc:20  I:0    P:124  SKIP:386  size=184 bytes
+frame=  12 QP=27.68 NAL=2 Slice:P Poc:28  I:11   P:487  SKIP:12   size=4127 bytes
+frame=  13 QP=31.47 NAL=2 Slice:B Poc:26  I:0    P:129  SKIP:377  size=214 bytes
+frame=  14 QP=34.94 NAL=0 Slice:B Poc:24  I:0    P:192  SKIP:318  size=242 bytes
+scene cut at 15 Icost:307831 Pcost:303735 ratio:0.0133 bias:0.2696 gop:15 (imb:390 pmb:30)
+frame=  15 QP=32.42 NAL=3 Slice:I Poc:0   I:510  P:0    SKIP:0    size=4581 bytes
+frame=  16 QP=24.31 NAL=2 Slice:P Poc:4   I:24   P:469  SKIP:17   size=4614 bytes
+frame=  17 QP=26.80 NAL=0 Slice:B Poc:2   I:0    P:135  SKIP:371  size=333 bytes
+frame=  18 QP=23.74 NAL=2 Slice:P Poc:14  I:6    P:437  SKIP:67   size=2833 bytes
+frame=  19 QP=26.45 NAL=2 Slice:B Poc:10  I:0    P:250  SKIP:249  size=738 bytes
+frame=  20 QP=26.14 NAL=0 Slice:B Poc:6   I:0    P:236  SKIP:269  size=389 bytes
+frame=  21 QP=26.87 NAL=0 Slice:B Poc:8   I:0    P:177  SKIP:326  size=363 bytes
+frame=  22 QP=28.81 NAL=0 Slice:B Poc:12  I:0    P:220  SKIP:282  size=399 bytes
+frame=  23 QP=20.34 NAL=2 Slice:P Poc:16  I:3    P:448  SKIP:59   size=4458 bytes
+frame=  24 QP=21.15 NAL=2 Slice:P Poc:24  I:2    P:431  SKIP:77   size=2833 bytes
+frame=  25 QP=22.49 NAL=2 Slice:B Poc:20  I:0    P:260  SKIP:239  size=769 bytes
+frame=  26 QP=22.38 NAL=0 Slice:B Poc:18  I:0    P:239  SKIP:259  size=566 bytes
+frame=  27 QP=24.40 NAL=0 Slice:B Poc:22  I:0    P:218  SKIP:288  size=381 bytes
+frame=  28 QP=20.66 NAL=2 Slice:P Poc:32  I:4    P:457  SKIP:49   size=3433 bytes
+frame=  29 QP=22.69 NAL=2 Slice:B Poc:28  I:0    P:246  SKIP:248  size=710 bytes
+frame=  30 QP=23.32 NAL=0 Slice:B Poc:26  I:0    P:228  SKIP:278  size=472 bytes
+frame=  31 QP=22.35 NAL=0 Slice:B Poc:30  I:0    P:183  SKIP:321  size=361 bytes
+frame=  32 QP=19.99 NAL=2 Slice:P Poc:40  I:4    P:437  SKIP:69   size=3726 bytes
+frame=  33 QP=23.08 NAL=2 Slice:B Poc:36  I:0    P:222  SKIP:268  size=838 bytes
+frame=  34 QP=23.99 NAL=0 Slice:B Poc:34  I:0    P:228  SKIP:275  size=551 bytes
+frame=  35 QP=23.35 NAL=0 Slice:B Poc:38  I:1    P:199  SKIP:295  size=632 bytes
+frame=  36 QP=19.93 NAL=2 Slice:P Poc:48  I:5    P:449  SKIP:56   size=4232 bytes
+frame=  37 QP=22.46 NAL=2 Slice:B Poc:44  I:0    P:239  SKIP:238  size=1035 bytes
+frame=  38 QP=22.83 NAL=0 Slice:B Poc:42  I:0    P:228  SKIP:263  size=730 bytes
+frame=  39 QP=22.28 NAL=0 Slice:B Poc:46  I:0    P:234  SKIP:260  size=637 bytes
+frame=  40 QP=21.60 NAL=3 Slice:I Poc:0   I:510  P:0    SKIP:0    size=12626 bytes
+frame=  41 QP=23.40 NAL=2 Slice:P Poc:12  I:6    P:417  SKIP:87   size=3344 bytes
+frame=  42 QP=25.31 NAL=2 Slice:B Poc:6   I:0    P:309  SKIP:184  size=1296 bytes
+frame=  43 QP=26.89 NAL=0 Slice:B Poc:2   I:1    P:225  SKIP:272  size=583 bytes
+frame=  44 QP=25.90 NAL=0 Slice:B Poc:4   I:0    P:218  SKIP:284  size=495 bytes
+frame=  45 QP=24.88 NAL=0 Slice:B Poc:8   I:0    P:242  SKIP:261  size=582 bytes
+frame=  46 QP=26.44 NAL=0 Slice:B Poc:10  I:0    P:204  SKIP:295  size=501 bytes
+frame=  47 QP=21.66 NAL=2 Slice:P Poc:20  I:7    P:433  SKIP:70   size=3848 bytes
+frame=  48 QP=24.31 NAL=2 Slice:B Poc:16  I:0    P:229  SKIP:257  size=897 bytes
+frame=  49 QP=25.20 NAL=0 Slice:B Poc:14  I:0    P:219  SKIP:282  size=559 bytes
+frame=  50 QP=25.30 NAL=0 Slice:B Poc:18  I:0    P:201  SKIP:301  size=510 bytes
+frame=  51 QP=20.98 NAL=2 Slice:P Poc:28  I:5    P:420  SKIP:85   size=4241 bytes
+frame=  52 QP=23.96 NAL=2 Slice:B Poc:24  I:0    P:252  SKIP:240  size=1021 bytes
+frame=  53 QP=24.14 NAL=0 Slice:B Poc:22  I:0    P:219  SKIP:282  size=604 bytes
+frame=  54 QP=23.99 NAL=0 Slice:B Poc:26  I:0    P:198  SKIP:304  size=540 bytes
+frame=  55 QP=21.06 NAL=2 Slice:P Poc:40  I:16   P:412  SKIP:82   size=5412 bytes
+frame=  56 QP=22.59 NAL=2 Slice:B Poc:34  I:0    P:276  SKIP:192  size=2202 bytes
+frame=  57 QP=24.12 NAL=0 Slice:B Poc:30  I:0    P:246  SKIP:253  size=840 bytes
+frame=  58 QP=24.98 NAL=0 Slice:B Poc:32  I:0    P:214  SKIP:281  size=742 bytes
+frame=  59 QP=25.21 NAL=0 Slice:B Poc:36  I:0    P:207  SKIP:291  size=851 bytes
+frame=  60 QP=25.31 NAL=0 Slice:B Poc:38  I:0    P:210  SKIP:284  size=782 bytes
+frame=  61 QP=21.08 NAL=2 Slice:P Poc:48  I:10   P:436  SKIP:64   size=4954 bytes
+frame=  62 QP=23.52 NAL=2 Slice:B Poc:44  I:2    P:280  SKIP:194  size=1624 bytes
+frame=  63 QP=23.69 NAL=0 Slice:B Poc:42  I:0    P:215  SKIP:285  size=760 bytes
+frame=  64 QP=23.79 NAL=0 Slice:B Poc:46  I:0    P:270  SKIP:229  size=862 bytes
+frame=  65 QP=20.12 NAL=3 Slice:I Poc:0   I:510  P:0    SKIP:0    size=13808 bytes
+frame=  66 QP=23.22 NAL=2 Slice:P Poc:8   I:9    P:416  SKIP:85   size=3434 bytes
+frame=  67 QP=23.56 NAL=2 Slice:B Poc:4   I:0    P:273  SKIP:215  size=1101 bytes
+frame=  68 QP=25.00 NAL=0 Slice:B Poc:2   I:0    P:249  SKIP:246  size=614 bytes
+frame=  69 QP=24.70 NAL=0 Slice:B Poc:6   I:0    P:222  SKIP:273  size=559 bytes
+frame=  70 QP=22.09 NAL=2 Slice:P Poc:12  I:3    P:441  SKIP:66   size=3562 bytes
+frame=  71 QP=24.76 NAL=0 Slice:B Poc:10  I:0    P:235  SKIP:258  size=731 bytes
+frame=  72 QP=22.21 NAL=2 Slice:P Poc:24  I:23   P:443  SKIP:44   size=5771 bytes
+frame=  73 QP=23.87 NAL=2 Slice:B Poc:18  I:0    P:332  SKIP:145  size=2290 bytes
+frame=  74 QP=24.36 NAL=0 Slice:B Poc:14  I:0    P:210  SKIP:284  size=884 bytes
+frame=  75 QP=25.20 NAL=0 Slice:B Poc:16  I:0    P:209  SKIP:281  size=789 bytes
+frame=  76 QP=25.16 NAL=0 Slice:B Poc:20  I:0    P:233  SKIP:267  size=867 bytes
+frame=  77 QP=24.99 NAL=0 Slice:B Poc:22  I:0    P:225  SKIP:260  size=746 bytes
+frame=  78 QP=21.92 NAL=2 Slice:P Poc:30  I:4    P:451  SKIP:55   size=4243 bytes
+frame=  79 QP=24.33 NAL=2 Slice:B Poc:28  I:0    P:213  SKIP:283  size=764 bytes
+frame=  80 QP=24.91 NAL=0 Slice:B Poc:26  I:0    P:234  SKIP:257  size=703 bytes
+frame=  81 QP=21.38 NAL=2 Slice:P Poc:36  I:4    P:424  SKIP:82   size=4312 bytes
+frame=  82 QP=22.70 NAL=2 Slice:B Poc:34  I:0    P:220  SKIP:275  size=765 bytes
+frame=  83 QP=25.46 NAL=0 Slice:B Poc:32  I:0    P:228  SKIP:264  size=686 bytes
+frame=  84 QP=21.31 NAL=2 Slice:P Poc:42  I:3    P:447  SKIP:60   size=4079 bytes
+frame=  85 QP=23.02 NAL=2 Slice:B Poc:40  I:0    P:221  SKIP:274  size=776 bytes
+frame=  86 QP=22.79 NAL=0 Slice:B Poc:38  I:0    P:242  SKIP:258  size=607 bytes
+frame=  87 QP=20.70 NAL=2 Slice:P Poc:48  I:2    P:460  SKIP:48   size=4082 bytes
+frame=  88 QP=22.42 NAL=2 Slice:B Poc:46  I:0    P:229  SKIP:255  size=892 bytes
+frame=  89 QP=22.24 NAL=0 Slice:B Poc:44  I:0    P:256  SKIP:239  size=695 bytes
+frame=  90 QP=20.00 NAL=3 Slice:I Poc:0   I:510  P:0    SKIP:0    size=15254 bytes
+frame=  91 QP=22.89 NAL=2 Slice:P Poc:6   I:3    P:380  SKIP:127  size=1911 bytes
+frame=  92 QP=24.07 NAL=2 Slice:B Poc:4   I:0    P:198  SKIP:306  size=442 bytes
+frame=  93 QP=25.22 NAL=0 Slice:B Poc:2   I:0    P:225  SKIP:283  size=375 bytes
+frame=  94 QP=22.45 NAL=2 Slice:P Poc:12  I:3    P:439  SKIP:68   size=3160 bytes
+frame=  95 QP=23.77 NAL=2 Slice:B Poc:10  I:0    P:230  SKIP:272  size=550 bytes
+frame=  96 QP=26.11 NAL=0 Slice:B Poc:8   I:0    P:222  SKIP:279  size=462 bytes
+frame=  97 QP=22.41 NAL=2 Slice:P Poc:18  I:10   P:401  SKIP:99   size=4399 bytes
+frame=  98 QP=24.78 NAL=2 Slice:B Poc:16  I:0    P:236  SKIP:236  size=1580 bytes
+frame=  99 QP=25.13 NAL=0 Slice:B Poc:14  I:0    P:231  SKIP:262  size=781 bytes
+frame I:5     Avg QP:25.40  size: 11118
+frame P:25    Avg QP:23.28  size:  3680
+frame B:70    Avg QP:26.70  size:   668
+consecutive B-frames:  6.0%  4.0% 24.0% 32.0% 10.0% 24.0%
+mb I  I16..4: 26.7%  0.0% 73.3%
+mb P  I16..4:  0.6%  0.0%  0.7%  P16..4: 44.1% 24.9% 13.7%  0.0%  0.0%    skip:16.0%
+mb B  I16..4:  0.0%  0.0%  0.0%  B16..8: 34.8%  6.3%  1.4%  direct: 1.4%  skip:56.1%  L0:27.0% L1:60.4% BI:12.6%
+final ratefactor: 21.01
+direct mvs  spatial:97.1% temporal:2.9%
+coded y,uvDC,uvAC intra: 71.0% 83.6% 48.4% inter: 9.4% 12.6% 0.7%
+i16 v,h,dc,p: 12% 33%  6% 49%
+i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 10%  8% 10%  9% 10% 11% 12% 12% 17%
+i8c dc,h,v,p: 44% 22% 20% 13%
+Weighted P-Frames: Y:0.0% UV:0.0%
+ref P L0: 66.5% 15.1% 13.6%  2.7%  1.8%  0.4%
+ref B L0: 92.2%  6.6%  0.9%  0.3%
+ref B L1: 93.0%  7.0%
+kb/s:388.64
+Statistics: 0 seeks, 100 writeouts
